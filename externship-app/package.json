@@ -1,0 +1,24 @@
+{
+  "name": "externship-checkin-app",
+  "version": "1.0.0",
+  "description": "Externship Student Check-In System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^9.4.3",
+    "nodemailer": "^6.9.9",
+    "node-cron": "^3.0.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.4",
+    "twilio": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
